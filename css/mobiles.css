@@ -1,0 +1,108 @@
+@media only screen and (max-width: 426px) {
+    .container {
+        width: min(100% 425px);
+    }
+
+    header {
+        padding-inline: 50px;
+
+    }
+
+    .burgermenu {
+        display: block;
+    }
+
+    .header_ul {
+        display: none;
+    }
+
+    .header_mghebrishvili img {
+        margin-left: 0;
+    }
+
+    .section1_text {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .section2 {
+
+        margin-top: 48px;
+    }
+
+    .card_container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 21px;
+
+    }
+
+    .card {
+        width: 345px;
+    }
+
+    .section_3 {
+        flex-direction: column;
+        width: 100%;
+        height: 115vh;
+        margin: 48px auto;
+    }
+
+    .section_3 h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section3_card {
+        width: 100%;
+    }
+
+    .section_3images {
+        flex-direction: column;
+    }
+
+    .section_3images img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+    .container {
+        width: min(100% 375px);
+    }
+
+    header {
+        padding-inline: 50px;
+
+    }
+
+    .burgermenu {
+        display: block;
+    }
+
+    .header_ul {
+        display: none;
+    }
+
+    .header_mghebrishvili img {
+        margin-left: 0;
+    }
+
+    .section1_text {
+        width: 347px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+
+
+
+}

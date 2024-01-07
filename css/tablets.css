@@ -1,0 +1,28 @@
+@media only screen and (max-width: 835px) {
+    .container {
+        width: min(100% 834px);
+    }
+    header {
+        padding-inline: 110px;
+       
+    }
+    .section1_text{
+        width: 700px;
+    }
+    .card {
+        width: 338px;
+    }
+    .section_3 {
+        width: 700px;
+        height: 609px;
+        margin: 80px auto;
+    }
+    .section3_card {
+        width: 700px;
+    }
+   
+    .section_3images img {
+        width: calc(50% - 10px);
+    }
+
+}

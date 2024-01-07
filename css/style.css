@@ -1,0 +1,218 @@
+/* styles */
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+
+    font-family: Kanit;
+}
+
+/* container */
+
+.container {
+    width: min(100% 1440px);
+    margin: auto;
+
+}
+
+/* header */
+
+header {
+    
+    padding: 9.17px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_lejava {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header h6 {
+    color: #fa793c;
+    font-family: "Pridi", serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header_mghebrishvili {
+    display: flex;
+    align-items: center;
+}
+.header_mghebrishvili img {
+    margin-left: 40px;
+}
+
+.header_ul {
+    display: flex;
+    align-items: center;;
+    column-gap: 32px;
+    
+}
+.header ul li a {
+    font-family: ABeeZee;
+}
+
+.header_link {
+    color: #000;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.burgermenu {
+    display: none;
+}
+.section1 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-shrink: 0;
+    background-image: url(../photos/section1_cover.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.section1_text {
+    width: 1180px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* section2 */
+
+
+.section2 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 130px;
+}
+
+
+h3 {
+    width: 156px;
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 22px;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 380px;
+    padding: 1px 1px 16px 1px;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    border: 1px solid #333
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h4 {
+    color: #000;
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 16px;
+}
+
+.card p {
+    color: #000;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 16px;
+}
+
+/* section3 */
+
+.section_3 {
+    display: flex;
+    margin: auto;
+    width: 1180px;
+    height: 479px;
+    flex-shrink: 0;
+    flex-direction: column;
+    margin: 130px auto;
+}
+
+.section3_card {
+    width: 780px;
+    object-fit: cover;
+}
+
+.section3_cards {
+    height: 400px;
+    display: flex;
+    gap: 20px;
+}
+
+.section_3images {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+footer {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 31px 0;
+  
+  
+}
+footer a {
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    margin-left: 14px;
+}
